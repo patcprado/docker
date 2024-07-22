@@ -1,0 +1,10 @@
+#criar a imagem: docker-compose build
+#docker images
+#sobe o container: docker-compose up -d
+#verifica se esta no ar: docker ps
+#entrar no container: docker exec -it container-ubuntu bash
+#derruba o container: docker-compose down
+
+Acessar a Aplicação
+http://localhost:8000
+Dentro do container: http://web:80.
