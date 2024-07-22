@@ -1,0 +1,8 @@
+#sobe o container: docker-compose up -d
+#verifica se esta no ar: docker ps
+#derruba o container: docker-compose down
+#derruba o container e os volumes: docker-compose down -v
+
+Acessar a Aplicação
+http://localhost:8000
+Dentro do container: http://web:80.
