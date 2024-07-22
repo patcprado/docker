@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+  web:
+    build: .
+    container_name: app-user
+    ports:
+      - "8085:80"
+    depends_on:
+      - db
+    environment:
+      - POSTGRES_USER=example
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_DB=exampledb
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+      POSTGRES_DB: exampledb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  
