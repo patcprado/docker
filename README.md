@@ -14,22 +14,12 @@
 ## Pré-requisitos
 
 ### Instalar Docker
-- **Windows**: Instale a versão Docker Desktop.
-- **Linux e MacOS**: Siga as instruções específicas para a sua distribuição.
+- **Windows**: Baixe e instale o [Docker Desktop](https://www.docker.com/products/docker-desktop).
+- **Linux e MacO**: Siga as instruções de instalação para a sua distribuição no [site oficial do Docker](https://docs.docker.com/engine/install/).
 
 ### Instalar DBeaver
 - Baixe e instale o [DBeaver](https://dbeaver.io/download/).
 
-## Subir a Aplicação com Docker
-
-### Passo 1: Instalar Docker
-- **Windows**: Baixe e instale o [Docker Desktop](https://www.docker.com/products/docker-desktop).
-- **Linux e MacO**: Siga as instruções de instalação para a sua distribuição no [site oficial do Docker](https://docs.docker.com/engine/install/).
-
-### Passo 2: Instalar DBeaver
-- Baixe e instale o [DBeaver](https://dbeaver.io/download/).
-
-### Passo 3: Subir a Aplicação no Docker Desktop
+## Subir a Aplicação 
 1. **Iniciar Docker Desktop**: Abra o Docker Desktop após a instalação.
 2. **Entrar no Diretório do Projeto**: Navegue até o diretório onde estão os arquivos `Dockerfile` e/ou `docker-compose.yml`.
-
