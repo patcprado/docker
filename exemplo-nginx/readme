@@ -1,8 +1,0 @@
-#criar o container: docker-compose build web
-#sobe o container: docker-compose up -d
-#verifica se esta no ar: docker ps
-#derruba o container: docker-compose down
-
-Acessar a Aplicação
-http://localhost:8080/hello.htm
-Dentro do container: http://web:80.
