@@ -1,0 +1,26 @@
+#Inicialize um novo projeto no Node.js:
+npm init -y
+
+#Instale o Express.js:
+npm install express
+npm install pg --force
+
+#criar o IMAGEM: docker-compose build
+#sobe o container: docker-compose up 
+#verifica se esta no ar: docker ps
+#entra no maquina: winpty docker exec -it phonetheria bash
+npm --version
+
+docker images
+#remover a image do docker - f force
+docker rmi -f 0dcab3b37239
+
+Acessar a Aplicação
+http://localhost:8087
+Dentro do container: http://web:80.
+
+git clone https://github.com/patcprado/docker.git
+
+
+No dbeaver:
+select * from nome_da_tabela 
