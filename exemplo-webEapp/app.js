@@ -6,10 +6,10 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const pool = new Pool({
-    user: 'example',
+    user: 'phone',
     host: 'db',
-    database: 'exampledb',
-    password: 'example',
+    database: 'phonetheria',
+    password: 'phone',
     port: 5432,
 });
 
